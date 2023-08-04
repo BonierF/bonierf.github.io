@@ -1,0 +1,53 @@
+
+
+
+
+
+#TituloIngredientes{
+    
+ 
+    background-color: burlywood;
+    
+}
+
+li {
+    padding-bottom: 30px;
+    
+    
+}
+
+*{
+    margin: 0px;
+    font-family: 'Edu SA Beginner', cursive;
+    padding: 0px;
+    
+}
+
+
+ #MododePreparo {
+    width: 100%;
+    height: 350;
+    background-color: blanchedalmond;
+
+ }
+
+.titulo-centralizado {
+    text-align: center;
+    color: bisque;
+    background-color: rgb(177, 177, 223);
+    padding: 10px;
+  }
+
+  #TituloIngredientes {
+    background-color: burlywood;
+    padding: 10px;
+
+
+  }
+
+.listas
+{
+background-color: bisque;
+
+}
+  
