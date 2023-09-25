@@ -1,0 +1,406 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*#menu {
+  display: flex;
+  list-style: none;
+  padding: 25px;
+  justify-content: center;
+  margin-bottom: 25px;
+}*/
+
+#menu a {
+  color: rgb(223, 213, 213);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  flex-direction: row;
+  margin: 19px;
+  text-transform: uppercase;
+}
+
+#menu a:hover {
+  color: rgb(188, 90, 198);
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgb(54, 20, 75) 0%,
+    rgb(35, 31, 53) 76%
+  );
+  padding-bottom: 60px;
+}
+
+.apresentacao {
+  display: flex;
+}
+
+h1 {
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 180%;
+}
+
+span {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.right {
+  flex: 5;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left {
+  flex: 5;
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btnContact {
+  background: rgb(64, 12, 187);
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.btnContact:hover {
+  background: rgb(68, 21, 185);
+  color: rgb(255, 255, 255);
+}
+
+.containerServicos {
+  background: rgb(238, 230, 255);
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.itemServico1,
+.itemServico3,
+.itemServico6,
+.itemServico8 {
+  border: 1px solid rgb(115, 10, 134);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 25px 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.itemServico2,
+.itemServico4,
+.itemServico5,
+.itemServico7 {
+  border: 1px solid rgb(70, 100, 190);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 25px 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.containerServicos h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0); 
+
+}
+
+.containerServicos img {
+  width: 60px;
+}
+
+.itemServico1:hover,
+.itemServico3:hover,
+.itemServico6:hover,
+.itemServico8:hover {
+  background: rgb(252, 234, 255);
+  cursor: pointer;
+}
+
+.itemServico2:hover,
+.itemServico4:hover,
+.itemServico5:hover,
+.itemServico7:hover {
+  background: rgb(226, 233, 255);
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  background: rgb(238, 230, 255);
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.containerSobreMim {
+  display: flex;
+  background: rgb(255, 255, 255);
+  padding-bottom: 50px;
+}
+
+.containerSobreMim .left {
+  margin-right: 190px; 
+  margin-left: 120px;
+  flex: 7; 
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left; 
+  line-height: 30px; 
+}
+
+
+
+.containerSobreMim .right {
+  background: rgb(255, 255, 255);
+  flex: 3;  
+}
+
+#sobremim h3 {
+  background: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.socialMedia {
+  display: flex;
+
+}
+
+.socialMedia img {
+  width: 30px;
+}
+
+.socialMedia p {  
+  margin-left: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+
+
+.socialMedia p:hover {
+  color: rgb(68, 21, 185);  /* */
+}
+
+.socialMedia a {
+  text-decoration: none; /* */
+}
+
+.containerSobreMim h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+
+#contato {
+  background-color: rgb(226, 215, 238);
+  font-family:  "Nunito Sans", sans-serif;
+}
+
+.containerContato h2 {
+  background-color: rgb(164, 129, 209); 
+  margin-bottom: 20px;
+  padding-left: 20px
+}
+
+form {
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 500px;
+  padding-left: 25px;
+}
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+
+.displayContato {
+  display: flex;
+}
+
+
+.mensagem {
+  margin-left: 60px;
+}
+
+textarea {
+  resize: none;
+  width: 400px;
+  height: 123px;
+}
+
+.mensagem input {
+  width: 130px;
+  font-size: 14px;
+  background-color:rgb(164, 129, 209); 
+  color: aliceblue;
+  cursor: pointer;
+  font-family:  "Nunito Sans", sans-serif;
+}
+
+.mensagem input:hover {
+  background-color: rgb(116, 87, 50);
+
+}
+
+.mapa{
+  margin-left: 90px;
+}
+
+iframe{
+  border-radius: 5px;
+  margin-top: -30px;
+}
+
+.navColor {
+  justify-content: center;
+  background: linear-gradient(
+    90deg,
+    rgb(54, 20, 75) 0%,
+    rgb(35, 31, 53) 76%
+  );
+}
+
+.container-fluid {
+  background: linear-gradient(
+    90deg,
+    rgb(54, 20, 75) 0%,
+    rgb(35, 31, 53) 76%
+  );
+  margin-top: -8px;
+  margin-bottom: -8px;
+
+}
+.navbar-toggler{
+  border: 1px solid transparent;
+  margin: 7px;
+  
+}
+
+.nabar{
+  --bs-navbar-toggler-icon-bg:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28 255, 255, 255 , 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.designIcon  {
+  color: rgb(0, 0, 0);
+}
+
+.container{
+  background-color: rgb(216, 206, 231);
+}
+
+.containerFooter {
+  background-color: rgb(125, 84, 190);
+}
+.designIcon2{
+ color: black;
+}
+
+.containerFooter{
+  font-size: 16px;
+}
+
+.iconr{
+  width: 30px;
+}
+
+@media screen and (max-width: 480px) {
+  .apresentacao {
+    flex-direction: column;
+  }
+
+  .left img {
+    margin-bottom: 15px;
+    width: 50%;
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  #sobremim {
+    flex-direction: column;
+  }
+  #sobremim h2 {
+    font-size: medium;
+  }
+  .containerSobremim {
+    flex-direction: column;
+  }
+  .containerSobremim .left {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .containerSobremim .right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #servicos h2 {
+    font-size: medium;
+  }
+  .conteinerServicos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteinerServicos h3 {
+    font-size: 15px;
+  }
+  .itemservicos1 {
+    flex-direction: column;
+    font-size: 15px;
+    width: 70%;
+  }
+  .itemservicos2 {
+    flex-direction: column;
+    font-size: 15px;
+    width: 70%;
+  }
+
+  .displayContato {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 200px;
+  
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-right: 50px;
+    padding-top: 100px;
+  }
+}
